@@ -1,0 +1,88 @@
+.clock
+{
+   background:#CCF;
+   border: 10px <span id="IL_AD11" class="IL_AD">solid</span> #000;
+   border-radius: 50%;
+   box-sizing: border-box;
+   height:300px;
+   position: relative;
+   width: 300px;
+   float:left;
+}
+.twelve,
+.three,
+.six,
+.nine
+{
+   position: absolute;
+   color:white;
+   font-size:50px;
+}
+ 
+.twelve,
+.six
+{
+   height: 10px;
+   width: 4px;
+}
+ 
+.three,
+.nine
+{
+   height: 4px;
+   width: 10px;
+}
+ 
+.twelve
+{
+   left: 41%;
+   top: -7px;
+}
+ 
+.three
+{
+   right: 16px;
+   top: 41%;
+}
+ 
+.six
+{
+   bottom: 44px;
+   left: 47%;
+}
+ 
+.nine
+{
+   left: 4px;
+   top: 41%;
+}
+#hour
+{
+   height: 100px;
+   width: 4px;
+   background: #333;
+   position: absolute;
+   left: 49%;
+   top: 150px;
+   transform-origin: top right;
+}
+#minute
+{
+   height: 140px;
+   width: 4px;
+   background: #777;
+   position: absolute;
+   left: 49%;
+   top: 150px;
+   transform-origin: top right;
+}
+#second
+{
+   height: 120px;
+   width: 4px;
+   background: #FC0505;
+   position: absolute;
+   left: 51%;
+   top: 150px;
+   transform-origin: top left;
+}
